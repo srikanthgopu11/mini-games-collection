@@ -4,7 +4,7 @@ A responsive web application featuring four interactive mini-games built with Re
 
 ## 🚀 Live Demo
 
-Coming soon — the project will be deployed on Netlify.
+**[Play Mini Games Collection](https://srikanth-mini-games.netlify.app/)**
 
 ## ✨ Features
 
@@ -31,21 +31,21 @@ Coming soon — the project will be deployed on Netlify.
 
 ### Prerequisites
 
-- Node.js and npm installed on your computer.
-- Git installed to clone the repository.
+- Node.js and npm
+- Git (for cloning the repository)
 
 ### Installation
 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/srikanthgopu11/Mini-Games-Collection-of-Memory-Games-.git
+   git clone https://github.com/srikanthgopu11/mini-games-collection.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd Mini-Games-Collection-of-Memory-Games-
+   cd mini-games-collection
    ```
 
 3. Install the dependencies:
