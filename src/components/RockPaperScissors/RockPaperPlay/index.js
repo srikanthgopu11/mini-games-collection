@@ -125,18 +125,15 @@ class RockPaperPlay extends Component {
     let displayAlt = ''
 
     if (result === 'YOU WON') {
-      emojiUrl =
-        'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/smiling-face-with-star-eyes-img.png'
+      emojiUrl = '/img/rps-win.png'
       testAlt = 'Smiling face with star eyes'
       displayAlt = 'won emoji'
     } else if (result === 'YOU LOSE') {
-      emojiUrl =
-        'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/face-without-mouth-img.png'
+      emojiUrl = '/img/sad-face.png'
       testAlt = 'Frowning face'
       displayAlt = 'lose emoji'
     } else {
-      emojiUrl =
-        'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/face-without-mouth-img.png'
+      emojiUrl = '/img/rps-draw.png'
       testAlt = 'Face without mouth'
       displayAlt = 'draw emoji'
     }

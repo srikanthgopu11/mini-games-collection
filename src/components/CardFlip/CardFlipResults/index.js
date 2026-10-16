@@ -14,7 +14,7 @@ class CardFlipResults extends React.Component {
             <h1>Congratulations</h1>
             <h2>You matched all of the cards in record time</h2>
             <img
-              src="https://assets.ccbp.in/frontend/react-js/face-with-big-eyes-img.png"
+              src="/img/win-big-eyes.png"
               alt="grinning face with big eyes"
             />
             <p>No.of Flips - {flips}</p>
@@ -23,10 +23,7 @@ class CardFlipResults extends React.Component {
           <>
             <h1>Better luck next time</h1>
             <h2>You did not match all of the cards in record time</h2>
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/neutral-face-img.png"
-              alt="neutral face"
-            />
+            <img src="/img/neutral-face.png" alt="neutral face" />
           </>
         )}
         <button
